@@ -3,9 +3,16 @@
 ## Contents
 - **_1. Introduction_** 
 - **_2. Literature Review_**
-- **_3. Methodology and Block Diagram_** 
+- **_3. Methodology** 
+  - Design Description
+  - Schematic
 - **_4. Operation_**
+  - Write
+  - Read
 - **_5. Simulation Results_**
+  - Transient Response
+  - Read Stability
+  - Layout
 - **_6. Conclusion_**
 - **_7. Upcoming Updates_**
 - **_8. References_**
