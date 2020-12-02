@@ -37,4 +37,16 @@ A new nine-transistor (9T) SRAM cell with reduced leakage power consumption and 
   - RD signal transitions high while wl is maintained low. The read access transistor M9 is activated. Provided that Node1 stores “1”, bl is discharged through M7 and M9.           Alternatively, provided that Node2 stores “1”, the complementary bit line (blb) is discharged through M7 and M9. Since M3 and M4 are cutoff, the storage nodes Node1 and         Node2 are completely isolated from the bit lines during a read operation. 
   - Unlike the 6T SRAM cell, the voltage of the node which stores “0” is strictly maintained at the ground level during a read operation with the proposed circuit technique. The     read stability of the 9T SRAM cell is thereby enhanced as compared to a standard 6T SRAM cell.
   
+## **5. Simulation Results**
+- Transient Response of 9T
+  - ![image](https://user-images.githubusercontent.com/72131007/100842788-5aa2df80-349f-11eb-831d-8db0f87c2cc4.png)
+  - The operation of read and write of 9T SRAM cell is simulated as above.
+  
+- Read Stability
+  - Static noise margin (SNM) is the metric used here to characterize the read stability of the SRAM cells. The SNM is deﬁned as the minimum noise voltage necessary which can       ﬂip the state of an SRAM cell. The static voltage transfer characteristics of the 6T and 9T SRAM cells during a read operation are shown below :-
+  - ![6tsnm](https://user-images.githubusercontent.com/72131007/100843383-4ad7cb00-34a0-11eb-8f70-4d42f1ee0c5b.png)
+  - Above is the Static voltage transfer characteristics of the conventional 6T SRAM.
+  
+  - ![9tsnm](https://user-images.githubusercontent.com/72131007/100843779-dfdac400-34a0-11eb-8944-30fcaa17acc9.PNG)
+  - Above is the Static voltage transfer characteristics of the 9T SRAM.
   
