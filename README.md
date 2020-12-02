@@ -3,7 +3,8 @@
 ## Contents
 - **_1. Introduction_** 
 - **_2. Literature Review_**
-- **_3. Methodology** 
+- **_3. Methodology_** 
+  - Specifications
   - Design Description
   - Schematic
 - **_4. Operation_**
