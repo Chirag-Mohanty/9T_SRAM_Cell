@@ -44,9 +44,10 @@ A new nine-transistor (9T) SRAM cell with reduced leakage power consumption and 
   
 - Read Stability
   - Static noise margin (SNM) is the metric used here to characterize the read stability of the SRAM cells. The SNM is deﬁned as the minimum noise voltage necessary which can       ﬂip the state of an SRAM cell. The static voltage transfer characteristics of the 6T and 9T SRAM cells during a read operation are shown below :-
-  - ![6tsnm](https://user-images.githubusercontent.com/72131007/100843383-4ad7cb00-34a0-11eb-8f70-4d42f1ee0c5b.png)
+  - ![6tsnm](https://user-images.githubusercontent.com/72131007/100844879-6ba12000-34a2-11eb-93f5-6c918da9d925.PNG)
   - Above is the Static voltage transfer characteristics of the conventional 6T SRAM.
-  
-  - ![9tsnm](https://user-images.githubusercontent.com/72131007/100843779-dfdac400-34a0-11eb-8944-30fcaa17acc9.PNG)
+  - Taking the worst case SNM i.e., 0.38 
+  - ![9tsnm](https://user-images.githubusercontent.com/72131007/100845180-d4889800-34a2-11eb-8f38-6903e6c0ac15.PNG)
   - Above is the Static voltage transfer characteristics of the 9T SRAM.
+  - Taking the worst case SNM i.e., 0.85 
   
