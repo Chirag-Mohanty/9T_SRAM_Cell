@@ -70,8 +70,8 @@ A new nine-transistor (9T) SRAM cell with reduced leakage power consumption and 
 - However there is an area overhead, depicting a tradeoff factor.
 
 ## **7. Upcoming Updates**
--It can be further extended for eliminating leakage power.
--It can be simulated in different PVT corners.
+- It can be further extended for eliminating leakage power.
+- It can be simulated in different PVT corners.
 
 ## **8. References**
 - Sung-Mo Kang, Yusuf Leblebici, “CMOS Digital Integrated Circuits analysis and design” Tata McGraw-hill Edition, 4 Edition, ISBN: 978-0-07-338062-9. 
