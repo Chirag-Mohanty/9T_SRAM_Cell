@@ -9,6 +9,7 @@
 - **_6. Conclusion_**
 - **_7. Upcoming Updates_**
 - **_8. References_**
+- **_9. Acknowledgement_**
 ## **1. Introduction**
 In modern high-performance integrated circuits, more than 40% of the total active mode energy is consumed due to leakage currents. Furthermore, leakage is the only source of energy consumption in an idle circuit. SRAM arrays are   important sources of leakage since the majority of transistors are utilized for on-chip memory in today’s high-performance microprocessors and systems-on-chips (SoCs). The design of a low leakage SRAM cell is, therefore, highly desirable.
 In addition to the leakage power issues, the degradation of data stability in SRAM cells is another growing concern with the scaling of device dimensions and voltages in each new technology generation.
@@ -77,3 +78,6 @@ A new nine-transistor (9T) SRAM cell with reduced leakage power consumption and 
 - Sung-Mo Kang, Yusuf Leblebici, “CMOS Digital Integrated Circuits analysis and design” Tata McGraw-hill Edition, 4 Edition, ISBN: 978-0-07-338062-9. 
 - 2008-Characterization of a Novel Nine-Transistor SRAM Cell by Zhiyu Liu and Volkan Kursun.
 
+## **9. Acknowledgement**
+- Dr.Saroj Rout, Associate Professor, Silicon Institute of Technology
+- Mr.Santanu Sarangi, Assistant Professor, Silicon Institute of Technology
