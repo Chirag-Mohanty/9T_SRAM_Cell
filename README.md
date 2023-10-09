@@ -45,7 +45,7 @@ A new nine-transistor (9T) SRAM cell with reduced leakage power consumption and 
 - **During Write Operation**
   - wl signal transitions high while RD is maintained low, M9 is cutoff. The two write access transistors M3 and M4 are turned on. In order to write a “0” to Node1, bl and blb       are discharged and charged, respectively. A “0” is forced into the SRAM cell through M3. Alternatively, for writing a “0” to Node2, bl and blb are charged and discharged,       respectively. A “0” is forced onto Node2 through M4.
 - **During Read Operation**
-  - RD signal transitions high while wl is maintained low. The read access transistor M9 is activated. Provided that Node1 stores “1”, bl is discharged through M7 and M9.           Alternatively, provided that Node2 stores “1”, the complementary bit line (blb) is discharged through M7 and M9. Since M3 and M4 are cutoff, the storage nodes Node1 and         Node2 are completely isolated from the bit lines during a read operation. 
+  - RD signal transitions high while wl is maintained low. The read access transistor M9 is activated. Provided that Node1 stores “1”, bl is discharged through M7 and M9.           Alternatively, provided that Node2 stores “1”, the complementary bit line (blb) is discharged through M8 and M9. Since M3 and M4 are cutoff, the storage nodes Node1 and         Node2 are completely isolated from the bit lines during a read operation. 
   - Unlike the 6T SRAM cell, the voltage of the node which stores “0” is strictly maintained at the ground level during a read operation with the proposed circuit technique. The     read stability of the 9T SRAM cell is thereby enhanced as compared to a standard 6T SRAM cell.
   
 ## **5. Simulation Results**
